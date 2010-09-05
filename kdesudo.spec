@@ -8,7 +8,7 @@ Summary:	Kdesudo
 Summary(pl.UTF-8):	Kdesudo
 Name:		kdesudo
 Version:	3.4.2.3
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://launchpad.net/kdesudo/3.x/3.4.2.3/+download/%{name}-%{version}.tar.gz
@@ -48,6 +48,9 @@ cd build
 rm -rf $RPM_BUILD_ROOT
 %{__make} -C build install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+# remove unsupported locale
+rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/jv
 
 %find_lang %{name} --with-kde
 
