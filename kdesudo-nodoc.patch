@@ -1,0 +1,10 @@
+--- CMakeLists.txt.orig	2010-09-05 14:58:02.486590289 +0200
++++ CMakeLists.txt	2010-09-05 14:58:09.139088732 +0200
+@@ -11,7 +11,6 @@
+ add_definitions(${KDE4_ENABLE_EXCEPTIONS} ${KDE4_DEFINITIONS})
+ 
+ ADD_SUBDIRECTORY(kdesudo)
+-ADD_SUBDIRECTORY(doc)
+ 
+ find_package(Gettext REQUIRED)
+ add_subdirectory( po )
