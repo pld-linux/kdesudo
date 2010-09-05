@@ -8,7 +8,7 @@ Summary:	Kdesudo
 Summary(pl.UTF-8):	Kdesudo
 Name:		kdesudo
 Version:	3.4.2.3
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://launchpad.net/kdesudo/3.x/3.4.2.3/+download/%{name}-%{version}.tar.gz
@@ -17,6 +17,7 @@ URL:		https://launchpad.net/kdesudo
 Patch0:		%{name}-nodoc.patch
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
+BuildRequires:	gettext-devel
 BuildRequires:	kde4-kdebase-workspace-devel >= %{kdever}
 BuildRequires:	kde4-kdelibs-devel >= %{kdever}
 BuildRequires:	qt4-build >= %{qtver}
