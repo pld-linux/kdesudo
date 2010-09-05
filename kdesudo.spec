@@ -8,7 +8,7 @@ Summary:	Kdesudo
 Summary(pl.UTF-8):	Kdesudo
 Name:		kdesudo
 Version:	3.4.2.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://launchpad.net/kdesudo/3.x/3.4.2.3/+download/%{name}-%{version}.tar.gz
